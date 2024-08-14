@@ -5,9 +5,9 @@ ENV = "prod"
 if ENV == 'dev':
     DATABASE_CONFIG = {
         'host': "localhost",
-        'database': "babyfoot",
+        'database': "postgres",
         'user': "postgres",
-        'password': "**"
+        'password': "1234"
     }
 else: 
 

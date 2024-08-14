@@ -93,7 +93,7 @@
       
               // Check if the scores are integers between 0 and 11
               if (!Number.isInteger(+team1_score) || !Number.isInteger(+team2_score)) {
-                  alert("Scores must be integers between 0 and 11.");
+                  alert("Scores must be integers between 0 and 2.");
                   return false;
               } 
       
@@ -104,20 +104,20 @@
               }
       
               // Check if the scores are not greater than 11
-              if (team1_score > 11 || team2_score > 11) {
-                  alert("Scores cannot be greater than 11.");
+              if (team1_score > 2 || team2_score > 2) {
+                  alert("Scores cannot be greater than 2.");
                   return false;
               }
 
-              // Check if the scores are not greater than 11
+              // Check if the scores are negative
               if (team1_score <=-1 || team2_score <= -1) {
                   alert("Scores cannot be lower than 0.");
                   return false;
               }
       
-              // Check if one of the scores is equal to 11
-              if (team1_score != 11 && team2_score != 11) {
-                  alert("One of the scores must be equal to 11.");
+              // Check if one of the scores is equal to 2
+              if (team1_score != 2 && team2_score != 2) {
+                  alert("One of the scores must be equal to 2.");
                   return false;
               }
       
@@ -136,7 +136,7 @@
 </div>
 
 
-<div class="action-grid">
+  <div class="action-grid">
   <a href="/" class="action action2">Upload game</a>
   <a href="/calculate_odds" class="action action2">Calculate odds</a>
   <a href="/rating" class="action action3">Ranking</a>
