@@ -1,0 +1,45 @@
+INSERT INTO player (
+    first_name,
+    last_name,
+    active
+) VALUES
+(
+    'Ludvig',
+    'Magnusson',
+    TRUE
+),
+(
+    'Timothy',
+    'Biörck',
+    TRUE
+),
+(
+    'Erik',
+    'Enoksson',
+    TRUE
+),
+(
+    'JozzeeEmil',
+    'Hildingsson',
+    TRUE
+),
+(
+    'BagelEmil',
+    'Iburg',
+    TRUE
+),
+(
+    'Fredrik',
+    'Andersson',
+    TRUE
+),
+(
+    'Johan',
+    'Andersson',
+    TRUE
+),
+(
+    'Adam',
+    'Dalken',
+    TRUE
+)
